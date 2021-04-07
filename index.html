@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trung binh mon hoc</title>
+</head>
+<body>
+<script>
+    let inutdiemly;
+    let inputdiemhoa;
+    let inpoutdiemsinh;
+    inputdiemhoa = prompt('nhap diem hoa');
+    inpoutdiemsinh = prompt('nhap diem sinh');
+    inutdiemly = prompt(' nhap diem ly');
+    let hoa = parseInt(inputdiemhoa);
+    let sinh =parseInt(inpoutdiemsinh);
+    let ly = parseInt(inutdiemly);
+    let trungbinh = (hoa + sinh + ly)/3;
+    document.write('diem trung binh: '  + trungbinh );
+    let tong = hoa+sinh+ly;
+    document.write(' <br/>tong diem 3 mon: ' + tong)
+
+</script>
+</body>
+</html>
